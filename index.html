@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Lifeline: Noto - 災害医療サバイバル</title>
+    <title>防災シミュレーター：能登で生き抜く</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div id="app-root">
 
-    <div id="home-screen" class="screen active">
-        <div class="title-logo">LIFELINE<br>NOTO</div>
-        <p style="color:#546e7a; font-weight:bold;">能登・災害医療ゲーム</p>
-        <p style="font-size:0.85rem; color:#888; margin-top:20px; line-height:1.6;">
-            授業用<br>
-            <span style="font-size:0.8rem;">※音が出ますのでご注意ください</span>
+<div id="home-screen" class="screen active">
+
+<div style="color:#1b1b94; font-weight:bold; font-size: 1.8rem; line-height: 1.4;">
+    防災シミュレーター：<br>能登で生き抜く
+    <p style="font-size:0.85rem; color:#888; margin-top:20px; line-height:1.6;">
+            試作<br>
+            <span style="font-size:0.8rem;">※音が出ますので十分ご注意ください</span>
         </p>
         <button class="start-btn" onclick="Game.toSelect()">始める</button>
+</div>
+        <div style="margin-top: 40px; font-size: 1.0rem; color: #404141; line-height: 1.8;">
+            開発：平尾勇磨<br>
+            指導：南保英孝<br>
+            医学監修：唐島成宙
+        </div>
     </div>
-
     <div id="select-screen" class="screen">
         <div class="nav-header">
             <button class="back-btn" onclick="Game.toHome()"></button>
