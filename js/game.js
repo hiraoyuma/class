@@ -209,15 +209,19 @@ const Game = {
             <div class="fb-header" style="color:#546e7a;">📚 参考資料・出典</div>
             <div class="fb-text" style="font-size:0.8rem; line-height:1.8;">
                 <ul style="padding-left:20px; margin:0;">
-                    <li>辻一郎. "被災者の生活支援、健康管理について". [cite_start]東北大学大学院医学系研究科公衆衛生学[cite: 8].</li>
+                    <li>辻一郎. "被災者の生活支援、健康管理について". 東北大学大学院医学系研究科公衆衛生学.</li>
                     <li>内閣府. "避難所におけるトイレの確保・管理ガイドライン".</li>
                     <li>厚生労働省. "災害時における健康危機管理".</li>
-                    <li>現地医師・薬剤師へのヒアリング調査 (2024, Noto)</li>
+                    <li>現地医師・薬剤師へのヒアリング調査 (2024)</li>
+                     <li>令和６年奥能登豪雨 (北國新聞社 2024)</li>
+                     <li>令和６年能登半島地震（2024）</li>
+                    <li>珠洲地震 (北國新聞社 2023)</li>
+
+
                 </ul>
             </div>
         `;
         list.appendChild(refDiv);
-        // ▲【追加ここまで】
     }
 };
 
